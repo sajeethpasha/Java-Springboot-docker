@@ -12,9 +12,7 @@ import java.time.format.DateTimeFormatter;
 @RestController
 @CrossOrigin
 public class TestController2 {
-	
-	
-    @GetMapping("/test")
+	@GetMapping("/test")
     public String check()
     {
     	   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
