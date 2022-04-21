@@ -1,6 +1,7 @@
 package com.example.dkr.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 
 
 @RestController
-@Controller("*")
+@CrossOrigin
 public class TestController2 {
 	
 	
